@@ -1,0 +1,30 @@
+review_id,review_text,gold_sentiment,note
+R001,This movie was amazing and emotional. The acting was brilliant and the ending was unforgettable.,positive,easy positive
+R002,"I wanted to like it, but the story was weak and the characters felt flat.",negative,mixed cue
+R003,"Not bad, but not memorable either. It passed the time.",mixed,ambiguous
+R004,An outstanding film with beautiful cinematography and a powerful soundtrack.,positive,easy positive
+R005,A complete waste of time. I regret watching it.,negative,easy negative
+R006,"The first half was excellent, but the second half fell apart.",mixed,mixed sentiment
+R007,"The performances were decent, though the script was disappointing.",mixed,mixed sentiment
+R008,Absolutely fantastic. One of the best movies I have seen this year.,positive,strong positive
+R009,The plot made no sense and the pacing was painfully slow.,negative,strong negative
+R010,I expected much more. It was neither terrible nor great.,neutral,neutral review
+R011,"The visuals were stunning, but I could not connect with the characters.",mixed,aspect conflict
+R012,"Terrible acting, terrible writing, terrible direction.",negative,easy negative
+R013,A charming and heartwarming story that kept me engaged throughout.,positive,easy positive
+R014,It starts strong but becomes boring after the first hour.,mixed,long review cue
+R015,Not good. Not exciting. Not worth recommending.,negative,negation
+R016,"Not a masterpiece, but surprisingly entertaining.",positive,negation positive
+R017,"I loved the cast, although the ending was disappointing.",mixed,mixed sentiment
+R018,This film exceeded my expectations in every way.,positive,strong positive
+R019,I struggled to stay awake. The movie felt endless.,negative,easy negative
+R020,"Some scenes were excellent, others were frustratingly bad.",mixed,mixed sentiment
+R021,"The movie was okay. Nothing special, nothing awful.",neutral,neutral review
+R022,Brilliant direction and memorable performances make this a must-watch.,positive,easy positive
+R023,The dialogue was awkward and the jokes rarely landed.,negative,easy negative
+R024,"While the acting was strong, the story itself was predictable.",mixed,mixed sentiment
+R025,A surprisingly thoughtful film that stays with you afterward.,positive,easy positive
+R026,"I cannot say I hated it, but I would never watch it again.",negative,subtle negative
+R027,"The movie tries many ideas; some work wonderfully, others do not.",mixed,mixed sentiment
+R028,An unforgettable experience with excellent performances.,positive,strong positive
+R029,The trailer was better than the actual movie.,negative,indirect negative

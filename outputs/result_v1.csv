@@ -1,0 +1,125 @@
+review_id,review_text,gold_sentiment,prompt_version,llm_output,valid_json,pred_sentiment
+R001,This movie was amazing and emotional. The acting was brilliant and the ending was unforgettable.,positive,v1,"{""sentiment"": ""positive"", ""short_explanation"": ""The reviewer uses positive adjectives such as 'amazing', 'emotional', 'brilliant' to describe the movie."", ""evidence_phrases"": [""This movie was amazing"", ""The acting was brilliant""]}",1,positive
+R002,"I wanted to like it, but the story was weak and the characters felt flat.",negative,v1,"{""sentiment"": ""negative"", ""short_explanation"": ""weak story and flat characters"", ""evidence_phrases"": [""the story was weak"", ""characters felt flat""]}",1,negative
+R003,"Not bad, but not memorable either. It passed the time.",mixed,v1,"{
+  ""sentiment"": ""neutral"",
+  ""short_explanation"": ""Neither positive nor negative, a neutral review."",
+  ""evidence_phrases"": [""Not bad"", ""not memorable"", ""passed the time""]
+}",1,neutral
+R004,An outstanding film with beautiful cinematography and a powerful soundtrack.,positive,v1,"{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""review contains positive adjectives"",
+  ""evidence_phrases"": [""beautiful cinematography"", ""powerful soundtrack""]
+}",1,positive
+R005,A complete waste of time. I regret watching it.,negative,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""The reviewer expresses regret and disappointment with the movie."",
+  ""evidence_phrases"": [""A complete waste of time"", ""I regret watching it""]
+}",1,negative
+R006,"The first half was excellent, but the second half fell apart.",mixed,v1,"{
+  ""sentiment"": ""mixed"",
+  ""short_explanation"": ""review is ambivalent about the movie's quality"",
+  ""evidence_phrases"": [""The first half was excellent"", ""the second half fell apart""]
+}",1,mixed
+R007,"The performances were decent, though the script was disappointing.",mixed,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""Mixed sentiment towards the review, but leans more towards negative due to the mention of a 'disappointing' script."",
+  ""evidence_phrases"": [""The performances were decent"", ""the script was disappointing""]
+}",1,negative
+R008,Absolutely fantastic. One of the best movies I have seen this year.,positive,v1,"{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review uses superlatives like 'absolutely fantastic' and 'one of the best', indicating a strongly positive sentiment."",
+  ""evidence_phrases"": [""absolutely fantastic"", ""one of the best""]
+}",1,positive
+R009,The plot made no sense and the pacing was painfully slow.,negative,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""the reviewer mentions two major issues with the movie (plot and pacing) which are common indicators of a negative review."",
+  ""evidence_phrases"": [""The plot made no sense"", ""the pacing was painfully slow.""]
+}",1,negative
+R010,I expected much more. It was neither terrible nor great.,neutral,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""Expected more, but received less than that."",
+  ""evidence_phrases"": [""It was neither terrible nor great.""]
+}",1,negative
+R011,"The visuals were stunning, but I could not connect with the characters.",mixed,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""Mixed review: praise for visuals, criticism of character connection"",
+  ""evidence_phrases"": [""The visuals were stunning"", ""I could not connect with the characters""]
+}",1,negative
+R012,"Terrible acting, terrible writing, terrible direction.",negative,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""Mentions of 'terrible' used to describe the review's negative aspects."",
+  ""evidence_phrases"": [""Terrible acting"", ""terrible writing"", ""terrible direction""]
+}",1,negative
+R013,A charming and heartwarming story that kept me engaged throughout.,positive,v1,"{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""Positive sentiment indicated by the use of positive adjectives such as 'charming' and 'heartwarming'"",
+  ""evidence_phrases"": [""A charming and heartwarming story""]
+}",1,positive
+R014,It starts strong but becomes boring after the first hour.,mixed,v1,"{""sentiment"": ""negative"", ""short_explanation"": ""The review mentions that the movie starts strong, but then loses momentum and becomes boring."", ""evidence_phrases"": [""becomes boring after the first hour""]}",1,negative
+R015,Not good. Not exciting. Not worth recommending.,negative,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""The reviewer expresses dissatisfaction with the movie, stating it's not good, not exciting, and not worth recommending."",
+  ""evidence_phrases"": [""Not good"", ""Not exciting""]
+}",1,negative
+R016,"Not a masterpiece, but surprisingly entertaining.",positive,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""The reviewer expected a 'masterpiece' which they didn't get, but found the movie 'surprisingly entertaining'. This suggests a negative expectation vs positive outcome."",
+  ""evidence_phrases"": [""Not a masterpiece"", ""surprisingly entertaining""]
+}",1,negative
+R017,"I loved the cast, although the ending was disappointing.",mixed,v1,"{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""Overall positive review despite a few criticisms."",
+  ""evidence_phrases"": [
+    ""I loved the cast"",
+    ""although the ending was disappointing""
+  ]
+}",1,positive
+R018,This film exceeded my expectations in every way.,positive,v1,"{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""Exceeded expectations"",
+  ""evidence_phrases"": [""This film""]
+}",1,positive
+R019,I struggled to stay awake. The movie felt endless.,negative,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""struggled to stay awake"",
+  ""evidence_phrases"": [""I struggled to stay awake"", ""The movie felt endless""]
+}",1,negative
+R020,"Some scenes were excellent, others were frustratingly bad.",mixed,v1,"{
+  ""sentiment"": ""mixed | both positive and negative"",
+  ""short_explanation"": ""The review contains both positive and negative comments about the movie."",
+  ""evidence_phrases"": [""Some scenes were excellent"", ""others were frustratingly bad""]
+}",1,
+R021,"The movie was okay. Nothing special, nothing awful.",neutral,v1,"{
+  ""sentiment"": ""neutral"",
+  ""short_explanation"": ""mixed tone indicating neither extremely positive nor negative sentiment"",
+  ""evidence_phrases"": [""nothing special"", ""nothing awful""]
+}",1,neutral
+R022,Brilliant direction and memorable performances make this a must-watch.,positive,v1,"{""sentiment"": ""positive"", ""short_explanation"": ""Positive adjectives used in the review"", ""evidence_phrases"": [""brilliant"", ""memorable""]}",1,positive
+R023,The dialogue was awkward and the jokes rarely landed.,negative,v1,"{""sentiment"": ""negative"", ""short_explanation"": ""dialogue and humor failed to impress"", ""evidence_phrases"": [""the dialogue was awkward"", ""the jokes rarely landed""]}",1,negative
+R024,"While the acting was strong, the story itself was predictable.",mixed,v1,"{
+  ""sentiment"": ""mixed"",
+  ""short_explanation"": ""The review contains both positive (strong acting) and negative (predictable story) comments."",
+  ""evidence_phrases"": [""the acting was strong"", ""the story itself was predictable""]
+}",1,mixed
+R025,A surprisingly thoughtful film that stays with you afterward.,positive,v1,"{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""Surprisingly thoughtful"",
+  ""evidence_phrases"": [""surprisingly"", ""stays with you afterward""]
+}",1,positive
+R026,"I cannot say I hated it, but I would never watch it again.",negative,v1,"{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""The reviewer states they wouldn't watch the movie again, which implies a strong dislike."",
+  ""evidence_phrases"": [""I cannot say I hated it"", ""but I would never watch it again""]
+}",1,negative
+R027,"The movie tries many ideas; some work wonderfully, others do not.",mixed,v1,"{
+  ""sentiment"": ""mixed"",
+  ""short_explanation"": ""reviewer found both positive and negative aspects of the movie"",
+  ""evidence_phrases"": [""some work wonderfully"", ""others do not""]
+}",1,mixed
+R028,An unforgettable experience with excellent performances.,positive,v1,"{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The reviewer uses words like 'unforgettable' and 'excellent', indicating a very positive sentiment."",
+  ""evidence_phrases"": [""An unforgettable experience"", ""excellent performances""]
+}",1,positive
+R029,The trailer was better than the actual movie.,negative,v1,"{""sentiment"": ""negative"", ""short_explanation"": ""Trailer outperformed the film."", ""evidence_phrases"": [""The trailer was""]}",1,negative

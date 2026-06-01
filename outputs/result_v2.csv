@@ -1,0 +1,344 @@
+review_id,review_text,gold_sentiment,prompt_version,llm_output,valid_json,pred_sentiment
+R001,This movie was amazing and emotional. The acting was brilliant and the ending was unforgettable.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting | story | visuals | music | pacing | ending | dialogue | direction | other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The acting was brilliant""
+    },
+    {
+      ""aspect"": ""ending"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the ending was unforgettable""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the acting and ending of the movie."",
+  ""confidence"": ""high""
+}",1,positive
+R002,"I wanted to like it, but the story was weak and the characters felt flat.",negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the story was weak""
+    }
+  ],
+  ""short_explanation"": ""The reviewer found the story and characters to be lacking."",
+  ""confidence"": ""high""",0,
+R003,"Not bad, but not memorable either. It passed the time.",mixed,v2,"{
+  ""sentiment"": ""neutral"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting | story | visuals | music | pacing | ending | dialogue | direction | other"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""not memorable""
+    }
+  ],
+  ""short_explanation"": ""The reviewer found the movie neither impressive nor disappointing."",
+  ""confidence"": ""medium""",0,
+R004,An outstanding film with beautiful cinematography and a powerful soundtrack.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""visuals | music"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""beautiful cinematography and a powerful soundtrack""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the film's visuals and music."",
+  ""confidence"": ""high""",0,
+R005,A complete waste of time. I regret watching it.,negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting | story | visuals | music | pacing | ending | dialogue | direction"",
+      ""polarity"": ""neutral"",
+      ""evidence"": """"
+    },
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""a complete waste of time""
+    }
+  ],
+  ""short_explanation"": """",
+  ""confidence"": ""low""
+}",1,negative
+R006,"The first half was excellent, but the second half fell apart.",mixed,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""pacing"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the second half fell apart""
+    }
+  ],
+  ""short_explanation"": ""Review criticizes the pacing, stating that the first half was excellent but the second half suffered a decline."",
+  ""confidence"": ""high""",0,
+R007,"The performances were decent, though the script was disappointing.",mixed,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the performances were decent,""
+    },
+    {
+      ""aspect"": ""script"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""though the script was disappointing.""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the acting but criticizes the script."",
+  ""confidence"": ""medium""
+}",1,negative
+R008,Absolutely fantastic. One of the best movies I have seen this year.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting | story | visuals | music | pacing | ending | dialogue | direction"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""Absolutely fantastic.""
+    }
+  ],
+  ""short_explanation"": null,
+  ""confidence"": ""high""
+}",1,positive
+R009,The plot made no sense and the pacing was painfully slow.,negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story | pacing"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the plot made no sense and the pacing was painfully slow.""
+    }
+  ],
+  ""short_explanation"": ""Reviewer found the plot nonsensical and pacing too slow."",
+  ""confidence"": ""high""
+}",1,negative
+R010,I expected much more. It was neither terrible nor great.,neutral,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting | story | visuals | music | pacing | ending | dialogue | direction | other"",
+      ""polarity"": ""neutral"",
+      ""evidence"": ""It was neither terrible nor great.""
+    }
+  ],
+  ""short_explanation"": ""The reviewer's expectations were not met."",
+  ""confidence"": ""high""
+}",1,negative
+R011,"The visuals were stunning, but I could not connect with the characters.",mixed,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""I could not connect with the characters.""
+    }
+  ],
+  ""short_explanation"": ""The reviewer was unable to form a connection with the actors' portrayals."",
+  ""confidence"": ""medium""
+}",1,negative
+R012,"Terrible acting, terrible writing, terrible direction.",negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting | story | visuals | music | pacing | ending | dialogue | direction"",
+      ""polarity"": ""negative"",
+      ""evidence"": [""Terrible acting"", ""terrible writing"", ""terrible direction""]
+    }
+  ],
+  ""short_explanation"": The reviewer found the movie to have poor quality in multiple aspects.
+  ""confidence"": ""high""",0,
+R013,A charming and heartwarming story that kept me engaged throughout.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""A charming and heartwarming story that kept me engaged throughout.""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the movie's engaging storyline."",
+  ""confidence"": ""high""
+}",1,positive
+R014,It starts strong but becomes boring after the first hour.,mixed,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""pacing"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""becomes boring after the first hour.""
+    }
+  ],
+  ""short_explanation"": ""Review criticizes pacing."",
+  ""confidence"": ""high""",0,
+R015,Not good. Not exciting. Not worth recommending.,negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""not good.""
+    }
+  ],
+  ""short_explanation"": The review is overall negative, and the reviewer does not recommend the movie.
+  ""confidence"": ""low""
+}",0,
+R016,"Not a masterpiece, but surprisingly entertaining.",positive,v2,"{
+  ""sentiment"": ""neutral"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""neutral"",
+      ""evidence"": ""surprisingly entertaining""
+    }
+  ],
+  ""short_explanation"": ""The reviewer found the movie to be neither strongly positive nor negative, but rather mildly enjoyable."",
+  ""confidence"": ""high""
+}",1,neutral
+R017,"I loved the cast, although the ending was disappointing.",mixed,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""loved the cast""
+    }
+  ],
+  ""short_explanation"": """",
+  ""confidence"": ""high""",0,
+R018,This film exceeded my expectations in every way.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""exceeded my expectations""
+    }
+  ],
+  ""short_explanation"": The reviewer's glowing statement indicates a highly positive experience."",
+  ""confidence"": ""high""",0,
+R019,I struggled to stay awake. The movie felt endless.,negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": "" pacing"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""The movie felt endless.""
+    }
+  ],
+  ""short_explanation"": ""Review criticizes the pace of the movie."",
+  ""confidence"": ""high""",0,
+R020,"Some scenes were excellent, others were frustratingly bad.",mixed,v2,"{""sentiment"": ""negative"", ""aspects"": [{""aspect"": ""acting | story | visuals | music | pacing | ending | dialogue | direction | other"", ""polarity"": ""negative"", ""evidence"": ""frustratingly bad""}], ""short_explanation"": ""The reviewer found some scenes to be excellent but most of the scenes were very poor and frustrating."", ""confidence"": ""medium""}",1,negative
+R021,"The movie was okay. Nothing special, nothing awful.",neutral,v2,"{
+  ""sentiment"": ""neutral"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting | story | visuals | music | pacing | ending | dialogue | direction | other"",
+      ""polarity"": ""neutral"",
+      ""evidence"": ""nothing special, nothing awful""
+    }
+  ],
+  ""short_explanation"": The reviewer found the movie average without any standout qualities,
+  ""confidence"": ""low""",0,
+R022,Brilliant direction and memorable performances make this a must-watch.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""direction | acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""Brilliant direction and memorable performances""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the direction and acting."",
+  ""confidence"": ""high""",0,
+R023,The dialogue was awkward and the jokes rarely landed.,negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""dialogue"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the dialogue was awkward""
+    }
+  ],
+  ""short_explanation"": ""The reviewer criticized the dialogue, stating it was awkward and jokes rarely landed."",
+  ""confidence"": ""high""
+}",1,negative
+R024,"While the acting was strong, the story itself was predictable.",mixed,v2,"{
+  ""sentiment"": ""mixed"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the acting was strong""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the story itself was predictable""
+    }
+  ],
+  ""short_explanation"": ""The reviewer found the acting to be positive but had mixed feelings about the predictability of the story."",
+  ""confidence"": ""medium""",0,
+R025,A surprisingly thoughtful film that stays with you afterward.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""surprisingly thoughtful film""
+    }
+  ],
+  ""short_explanation"": ""The reviewer found the movie to be a thought-provoking experience."",
+  ""confidence"": ""high""
+}",1,positive
+R026,"I cannot say I hated it, but I would never watch it again.",negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""I would never watch it again.""
+    }
+  ],
+  ""short_explanation"": The reviewer expresses reluctance to watch the movie again, implying a negative experience.
+  ""confidence"": ""high""
+}",0,
+R027,"The movie tries many ideas; some work wonderfully, others do not.",mixed,v2,"{
+  ""sentiment"": ""neutral"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""mixed"",
+      ""evidence"": ""some work wonderfully, others do not.""
+    }
+  ],
+  ""short_explanation"": ""The review is neutral as it mentions both positive and negative aspects of the movie's ideas."",
+  ""confidence"": ""medium""",0,
+R028,An unforgettable experience with excellent performances.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""excellent performances""
+    }
+  ],
+  ""short_explanation"": ""The reviewer enjoyed the acting."",
+  ""confidence"": ""high""",0,
+R029,The trailer was better than the actual movie.,negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting | story | visuals | music | pacing | ending | dialogue | direction"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""The trailer was better than the actual movie.""
+    }
+  ],
+  ""short_explanation"": ""Negative sentiment due to trailer being superior"",
+  ""confidence"": ""high""
+}",1,negative

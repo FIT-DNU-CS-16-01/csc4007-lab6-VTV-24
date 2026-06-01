@@ -1,0 +1,239 @@
+review_id,review_text,gold_sentiment,prompt_version,llm_output,valid_json,pred_sentiment
+R001,This movie was amazing and emotional. The acting was brilliant and the ending was unforgettable.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""amazing and emotional experience"",
+  ""positive_clues"": [""was amazing"", ""emotional"", ""brilliant acting"", ""unforgettable""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""This movie was amazing and emotional."", ""The ending was unforgettable.""],
+  ""confidence"": ""high""
+}",1,positive
+R002,"I wanted to like it, but the story was weak and the characters felt flat.",negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""The review is negative because the reviewer mentions several criticisms of the movie."",
+  ""positive_clues"": [],
+  ""negative_clues"": [""the story was weak"", ""the characters felt flat""],
+  ""evidence_phrases"": [""the story was weak"", ""the characters felt flat""],
+  ""confidence"": ""high""
+}",1,negative
+R003,"Not bad, but not memorable either. It passed the time.",mixed,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""it was neither particularly good nor memorable"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""not bad"", ""not memorable"", ""passed the time""],
+  ""evidence_phrases"": [""Not bad, but not memorable either"", ""It passed the time""],
+  ""confidence"": ""low""
+}",1,negative
+R004,An outstanding film with beautiful cinematography and a powerful soundtrack.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""The reviewer praises the film's cinematography and soundtrack."",
+  ""positive_clues"": [
+    ""outstanding film"", 
+    ""beautiful cinematography"", 
+    ""powerful soundtrack""
+  ],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [
+    ""An outstanding film with beautiful cinematography and a powerful soundtrack.""
+  ],
+  ""confidence"": ""high""
+}",1,positive
+R005,A complete waste of time. I regret watching it.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""The reviewer calls the movie a 'complete waste of time', indicating a strong negative opinion."",
+  ""positive_clues"": [],
+  ""negative_clues"": [""A complete waste of time."", ""I regret watching it.""],
+  ""evidence_phrases"": [""A complete waste of time."", ""I regret watching it.""],
+  ""confidence"": ""high""
+}",1,negative
+R006,"The first half was excellent, but the second half fell apart.",mixed,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""fell apart"",
+  ""positive_clues"": [""excellent""],
+  ""negative_clues"": [""fell apart""],
+  ""evidence_phrases"": [""The first half was excellent"", ""the second half fell apart""],
+  ""confidence"": ""high""
+}",1,negative
+R007,"The performances were decent, though the script was disappointing.",mixed,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""script was disappointing"",
+  ""positive_clues"": [""performances were decent""],
+  ""negative_clues"": [""script was disappointing""],
+  ""evidence_phrases"": [""The performances were decent, though the script was disappointing.""],
+  ""confidence"": ""high""
+}",1,negative
+R008,Absolutely fantastic. One of the best movies I have seen this year.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""Overall praise for the movie."",
+  ""positive_clues"": [""Absolutely fantastic"", ""one of the best movies I have seen this year""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""Absolutely fantastic"", ""one of the best movies I have seen this year""],
+  ""confidence"": ""high""
+}",1,positive
+R009,The plot made no sense and the pacing was painfully slow.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""slow pacing"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""the plot made no sense"", ""painfully slow""],
+  ""evidence_phrases"": [""the plot made no sense"", ""painfully slow""],
+  ""confidence"": ""high""
+}",1,negative
+R010,I expected much more. It was neither terrible nor great.,neutral,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""disappointed with expectations not met"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""It was neither terrible nor great."", ""I expected much more.""],
+  ""evidence_phrases"": [""I expected much more."", ""It was neither terrible nor great.""],
+  ""confidence"": ""high""
+}",1,negative
+R011,"The visuals were stunning, but I could not connect with the characters.",mixed,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""connection with characters"",
+  ""positive_clues"": [""stunning visuals""],
+  ""negative_clues"": [""could not connect with characters""],
+  ""evidence_phrases"": [""The visuals were stunning"", ""I could not connect with the characters""],
+  ""confidence"": ""medium""
+}",1,negative
+R012,"Terrible acting, terrible writing, terrible direction.",negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""overall negative opinions about acting, writing, and direction"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""terrible acting"", ""terrible writing"", ""terrible direction""],
+  ""evidence_phrases"": [""Terrible acting"", ""Terrible writing"", ""Terrible direction""],
+  ""confidence"": ""high""
+}",1,negative
+R013,A charming and heartwarming story that kept me engaged throughout.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""Overall positive tone"",
+  ""positive_clues"": [""charming and heartwarming"", ""kept me engaged""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""A charming and heartwarming story that kept me engaged throughout.""],
+  ""confidence"": ""high""
+}",1,positive
+R014,It starts strong but becomes boring after the first hour.,mixed,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""The movie loses its momentum after a good start."",
+  ""positive_clues"": [""starts strong""],
+  ""negative_clues"": [""becomes boring"", ""after the first hour""],
+  ""evidence_phrases"": [""It starts strong but becomes boring after the first hour."", ""becomes boring after the first hour.""],
+  ""confidence"": ""high""
+}",1,negative
+R015,Not good. Not exciting. Not worth recommending.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": "" reviewer states that it's not good, not exciting, and not worth recommending"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""not good"", ""not exciting"", ""not worth recommending""],
+  ""evidence_phrases"": [""Not good. Not exciting. Not worth recommending.""]
+, 
+  ""confidence"": ""high""",0,
+R016,"Not a masterpiece, but surprisingly entertaining.",positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""it's entertaining"",
+  ""positive_clues"": [""surprisingly entertaining"", ""entertaining""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""Not a masterpiece"", ""but surprisingly entertaining""],
+  ""confidence"": ""high""
+}",1,positive
+R017,"I loved the cast, although the ending was disappointing.",mixed,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""the ending was disappointing"",
+  ""positive_clues"": [""I loved the cast""],
+  ""negative_clues"": [""the ending was disappointing""],
+  ""evidence_phrases"": [""I loved the cast"", ""the ending was disappointing""],
+  ""confidence"": ""low""
+}",1,negative
+R018,This film exceeded my expectations in every way.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""The reviewer says the film exceeded their expectations."",
+  ""positive_clues"": [""exceeded my expectations"", ""...""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""exceeded my expectations""],
+  ""confidence"": ""high""
+}",1,positive
+R019,I struggled to stay awake. The movie felt endless.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""the reviewer found the movie boring and hard to watch."",
+  ""positive_clues"": [],
+  ""negative_clues"": [""struggled to stay awake"", ""felt endless""],
+  ""evidence_phrases"": [""struggled to stay awake"", ""felt endless""],
+  ""confidence"": ""high""
+}",1,negative
+R020,"Some scenes were excellent, others were frustratingly bad.",mixed,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""The overall tone of the review is negative due to the presence of more negative than positive clues."",
+  ""positive_clues"": [""Some scenes were excellent""],
+  ""negative_clues"": [""others were frustratingly bad""],
+  ""evidence_phrases"": [""Some scenes were excellent"", ""others were frustratingly bad""],
+  ""confidence"": ""high""
+}",1,negative
+R021,"The movie was okay. Nothing special, nothing awful.",neutral,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""found negative clues dominating the review."",
+  ""positive_clues"": [""nothing special"", ""...""],
+  ""negative_clues"": [""nothing awful"", ""...""],
+  ""evidence_phrases"": [""nothing special"", ""nothing awful""],
+  ""confidence"": ""low""
+}",1,negative
+R022,Brilliant direction and memorable performances make this a must-watch.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""brilliant direction and memorable performances"",
+  ""positive_clues"": [""Brilliant direction"", ""memorable performances"", ""must-watch""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""Brilliant direction and memorable performances make this a must-watch""],
+  ""confidence"": ""high""
+}",1,positive
+R023,The dialogue was awkward and the jokes rarely landed.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""awkward dialogue and unfunny jokes"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""The dialogue was awkward"", ""the jokes rarely landed""],
+  ""evidence_phrases"": [""The dialogue was awkward"", ""the jokes rarely landed""],
+  ""confidence"": ""high""
+}",1,negative
+R024,"While the acting was strong, the story itself was predictable.",mixed,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""predictability of the story"",
+  ""positive_clues"": [""the acting was strong""],
+  ""negative_clues"": [""the story itself was predictable""],
+  ""evidence_phrases"": [""the acting was strong"", ""the story itself was predictable""],
+  ""confidence"": ""medium""
+}",1,negative
+R025,A surprisingly thoughtful film that stays with you afterward.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""Thoughtful and stays with you afterward implies a positive lasting impression."",
+  ""positive_clues"": [""thoughtful"", ""stays with you afterward""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""A surprisingly thoughtful film"", ""stays with you afterward""],
+  ""confidence"": ""high""
+}",1,positive
+R026,"I cannot say I hated it, but I would never watch it again.",negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""The reviewer explicitly states they would never watch the movie again."",
+  ""positive_clues"": [],
+  ""negative_clues"": [""I would never watch it again."", ""I cannot say I hated it""],
+  ""evidence_phrases"": [""I would never watch it again."", ""I cannot say I hated it""],
+  ""confidence"": ""high""
+}",1,negative
+R027,"The movie tries many ideas; some work wonderfully, others do not.",mixed,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""some ideas didn't work out"",
+  ""positive_clues"": [""works wonderfully""],
+  ""negative_clues"": [""do not"", ""some do not""],
+  ""evidence_phrases"": [""The movie tries many ideas; some work wonderfully, others do not.""],
+  ""confidence"": ""low""
+}",1,negative
+R028,An unforgettable experience with excellent performances.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""Excellent performances"",
+  ""positive_clues"": [""unforgettable experience"", ""excellent performances""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""unforgettable experience"", ""excellent performances""],
+  ""confidence"": ""high""
+}",1,positive
+R029,The trailer was better than the actual movie.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""Trailer was better"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""better than the actual movie"", ""the trailer""],
+  ""evidence_phrases"": [""The trailer was better than the actual movie""],
+  ""confidence"": ""high""
+}",1,negative
